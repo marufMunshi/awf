@@ -32,8 +32,6 @@ section{
 /*-------- Header --------*/
 
 header {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, .5)), to(rgba(0, 0, 0, 0.5))), url(img/background_image.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, 0.5)), url(img/background_image.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh; /*100% of the viwe port */
@@ -42,10 +40,11 @@ header {
 
 .hero-text-box {
     position: absolute;
-    color: rgba(255, 255, 255, 0.74);
+    color: rgba(255, 255, 255, 1);
     top: 60%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
 }
 
 .hero-text-box  h1 {
@@ -130,6 +129,7 @@ header {
     background-color: #fff;
     color: #000;
     font-size: 110%;
+    -webkit-transition: background-color .7s;
     transition: background-color .7s;
 }
 
@@ -252,6 +252,7 @@ header {
 .btn-blue{
     background-color: #1F3A93;
     color: #fff;
+    -webkit-transition: background-color .6s;
     transition: background-color .6s;
 }
 
