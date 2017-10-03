@@ -1,0 +1,356 @@
+/*--------------------------------------------------*/
+/* Basic Setup */
+
+/*#1F3A93 */
+/*--------------------------------------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: #fff;
+    color: #555; /*text color*/
+    font-family: 'Raleway', 'Arial', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+
+/*--------------------------------------------------*/
+/* Reuseable componenet*/
+/*--------------------------------------------------*/
+section{
+    padding-top: 80px 0;
+}
+/*-------- Header --------*/
+
+header {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, .5)), to(rgba(0, 0, 0, 0.5))), url(img/background_image.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, 0.5)), url(img/background_image.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /*100% of the viwe port */
+    background-attachment: fixed;
+}
+
+.hero-text-box {
+    position: absolute;
+    color: rgba(255, 255, 255, 0.74);
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#school-name{
+    padding: 17px 0;
+    word-spacing: 4px;
+    font-weight: 500;
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 125%;
+}
+
+#school-logo{
+    height: 100px;
+}
+
+#main-nav-link{
+    padding: 25px 0;
+}
+
+.navbar {
+    border-top: 30px solid #1F3A93;
+    border-left: none;
+    border-bottom: none;
+    border-right: none;
+    margin: 0 0;
+}
+
+.navbar-default{
+    background-color: #3A539B;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+    font-size: 120%;
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+    color: #1F3A93;
+}
+
+
+/*-------- Autism --------*/
+
+.autism{
+    background-color: #e8e8e8;
+}
+
+.autism-text {
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.autism-text div{
+    background-color: rgba(58, 83, 156, 0.85);
+    padding: 15px 20px;
+    color: #fff;
+    line-height: 130%;
+    word-spacing: 4px;
+}
+
+.autism-text h2 {
+    text-align: center;
+}
+
+.autism-text-icon {
+    padding-right: 15px;
+    font-size: 120%;
+}
+
+.autism-btn{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.btn-black{
+    background-color: #fff;
+    color: #000;
+    font-size: 110%;
+    transition: background-color .7s;
+}
+
+.btn-black:hover{
+    background-color: #242424;
+    color: #fff;
+}
+
+/*-------- About School --------*/
+
+.about-school {
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.school-title h1 {
+    color: #1F3A93;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.our-school-icon {
+    font-size: 160%;
+    color: #D91E18;
+    text-align: center;
+}
+
+.our-school h2, .our-community h2{
+    text-align: center;
+    color: #1F3A93;
+    padding-bottom: 15px;
+}
+
+.our-community-icon{
+    text-align: center;
+    font-size: 160%;
+    color: #F9690E;
+}
+
+/*-------Sotries Events--------*/
+
+.stories-events{
+    padding-top: 80px;
+    background-color: #e8e8e8;
+}
+
+.stories-title h2 , .events-title h2{
+    color: #1F3A93;
+    word-spacing: 4px;
+}
+
+.stories-title h2{
+    padding-bottom: 18px;
+}
+
+.more-story p{
+    padding-top: 23px;
+}
+
+.more-story p a {
+    padding-bottom: 2px;
+    border-bottom: 1px solid #337ab7;
+}
+
+.more-story p a:hover{
+    text-decoration: none;
+}
+
+.story-text{
+    padding: 15px 8px 12px 8px;
+    background-color: #fff;
+    margin-bottom: 0;
+}
+
+.read-more{
+    padding: 15px 0 10px 10px;
+    background-color: #3A539B;
+    font-size: 140%;
+}
+
+.read-more a{
+    color: #fff;
+}
+
+.read-more a:hover{
+    text-decoration: none;
+    color: #1F3A93;
+}
+
+.events-icon {
+    font-size: 150%;
+    padding-top: 15px;
+    color: #1F3A93 ;
+}
+
+.events-date-title{
+    background-color: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+.events-date-title p, h4{
+    display: inline-block;
+}
+
+.events-date-title p{
+    font-size: 110%;
+    padding-left: 10px;
+}
+
+.events-date-title h4{
+    padding-left: 120px;
+    font-size: 120%;
+}
+
+.btn-blue{
+    background-color: #1F3A93;
+    color: #fff;
+    transition: background-color .6s;
+}
+
+.btn-blue:hover{
+    background-color: #fff;
+}
+
+.event-btn{
+    width: 20%;
+    margin-left: 40%;
+    padding: 20px 0;
+}
+
+
+/*---------Gallery--------*/
+
+.gallery{
+    padding-top: 80px;
+}
+
+.gallery-title{
+    text-align: center;
+    color: #1F3A93;
+}
+
+.gallery-btn {
+    text-align: center;
+    padding: 25px 0;
+}
+
+/*--------People Say-------*/
+
+.people-say{
+    padding-top: 80px;
+    background-color: #e8e8e8;
+}
+
+.people-say-title{
+    text-align: center;
+    color: #1F3A93;
+    word-spacing: 4px;
+    padding-bottom: 60px;
+}
+
+.people-say-text{
+    padding-top: 40px;
+    word-spacing: 5px;
+    color: #000;
+}
+
+.facbook-info-text{
+    padding: 15px 0 50px 0;
+    text-align: center;
+}
+
+.facbook-info-text h3{
+    display: inline-block;
+    color: #000;
+}
+
+.facebook-icon{
+    font-size: 170%;
+    padding-right: 15px;
+    color: #3b5998;
+}
+
+/*----------Footer---------*/
+
+footer{
+    background-color: rgba(58, 83, 156, 0.81);
+    color: #fff;
+}
+
+.footer-title{
+    text-align: center;
+    word-spacing: 5px;
+    padding: 25px 0 30px 0;
+}
+
+.contact-us, .location{
+    text-align: center;
+}
+
+.contact-us h2, .location h2{
+    display: inline-block;
+}
+
+.contact-icon, .location-icon{
+    font-size: 140%;
+    padding-right: 10px;
+}
+
+.phone, .email, .location-text{
+    font-size: 110%;
+    padding-top: 15px;
+    font-weight: 500;
+}
+
+.footer-link{
+    text-align: center;
+    padding-top: 35px;
+}
+
+.footer-facebook, .footer-google, .footer-twitter{
+    padding: 0 15px;
+    font-size: 160%;
+}
+
+.copyright{
+    padding-top: 15px;
+}
