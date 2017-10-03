@@ -48,9 +48,14 @@ header {
     transform: translate(-50%, -50%);
 }
 
+.hero-text-box  h1 {
+    font-size: 180%;
+}
+
 #school-name{
-    padding: 17px 0;
+    padding: 15px 20px;
     word-spacing: 4px;
+    line-height: 130%;
     font-weight: 500;
     color: #fff;
     letter-spacing: 1px;
@@ -75,6 +80,7 @@ header {
 
 .navbar-default{
     background-color: #3A539B;
+    padding-bottom: 25px;
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -149,11 +155,13 @@ header {
     font-size: 160%;
     color: #D91E18;
     text-align: center;
+    margin-bottom: 0;
 }
 
 .our-school h2, .our-community h2{
     text-align: center;
     color: #1F3A93;
+    margin-top: 0;
     padding-bottom: 15px;
 }
 
@@ -161,6 +169,7 @@ header {
     text-align: center;
     font-size: 160%;
     color: #F9690E;
+    margin-bottom: 0;
 }
 
 /*-------Sotries Events--------*/
@@ -266,6 +275,7 @@ header {
 .gallery-title{
     text-align: center;
     color: #1F3A93;
+    padding-bottom: 30px;
 }
 
 .gallery-btn {
