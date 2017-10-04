@@ -70,7 +70,7 @@ section{
 }
 
 .navbar {
-    border-top: 30px solid #1F3A93;
+    /*border-top: 30px solid #1F3A93;*/
     border-left: none;
     border-bottom: none;
     border-right: none;
@@ -377,5 +377,5 @@ footer{
 /*-------------------------*/
 
 .autism-single-page{
-
+    background-color: #e8e8e8;
 }
