@@ -31,7 +31,7 @@ section{
 }
 /*-------- Header --------*/
 
-header {
+.global-header {
     background-size: cover;
     background-position: center;
     height: 100vh; /*100% of the viwe port */
@@ -284,6 +284,11 @@ header {
     padding: 25px 0;
 }
 
+.gallery-img {
+    height: 400px;
+    width: auto;
+}
+
 /*--------People Say-------*/
 
 .people-say{
@@ -364,4 +369,13 @@ footer{
 
 .copyright{
     padding-top: 15px;
+}
+
+
+/*--------------------------*/
+/*---Autism single page (autism.html)---*/
+/*-------------------------*/
+
+.autism-single-page{
+
 }

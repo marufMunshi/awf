@@ -1,7 +1,7 @@
 $('#owl-one').owlCarousel({
     loop:true,
     margin:10,
-    items:3,
+    items:2,
 });
 
 $('#owl-two').owlCarousel({
