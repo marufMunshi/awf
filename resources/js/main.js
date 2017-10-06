@@ -30,3 +30,19 @@ $(".global-header").vegas({
         { src: "resources/css/img/DSC_0824.JPG" },
     ],
 });
+
+
+//Image hover effect
+    var $image = $('.galary');
+
+    $image.on('mouseenter', function() {
+      $(this).find('img').animate({
+          opacity: '0.3'
+      });
+    })
+
+    $image.on('mouseleave', function() {
+      $(this).find('img').animate({
+          opacity: '1'
+      });
+});

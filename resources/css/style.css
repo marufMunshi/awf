@@ -78,8 +78,15 @@ section{
 }
 
 .navbar-default{
-    background-color: rgba(255, 255, 255, 0.81);
     padding-bottom: 35px;
+}
+
+.navbar-first-color{
+    background-color: rgba(255, 255, 255, 0.81);
+}
+
+.navbar-second-color{
+    background-color: #BDC3C7;
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -377,5 +384,72 @@ footer{
 /*-------------------------*/
 
 .autism-single-page{
-    background-color: #e8e8e8;
+    padding-top: 40px;
+    background-color: #fff;
+}
+
+.main-title {
+    padding-bottom: 40px;
+    text-align: center;
+    color: #1F3A93;
+    border-bottom: 1px solid #000;
+    margin-bottom: 40px;
+    font-size: 190%;
+    word-spacing: 5px;
+}
+
+.sub-title {
+    word-spacing: 4px;
+    line-height: 130%;
+}
+
+.sub-title, .sub-text {
+    color: #181818;
+    padding-bottom: 15px;
+}
+
+.sub-text {
+    line-height: 130%;
+    word-spacing: 4px;
+    font-weight: 400;
+    font-size: 110%;
+}
+
+.autism-ul {
+    color: #000;
+    line-height: 130%;
+    word-spacing: 4px;
+    font-weight: 400;
+    font-size: 110%;
+    padding-bottom: 30px;
+}
+
+
+/*------Gallery Single Page-----*/
+
+.gallery-single-page{
+    padding: 50px 0;
+}
+
+.img-text{
+    font-size: 90%;
+    color: #181818;
+    word-spacing: 3px;
+}
+
+/*-------Story page------*/
+
+.story-page {
+    padding: 50px 0;
+}
+
+.story-page-text {
+    color: #181818;
+    line-height: 130%;
+    word-spacing: 3px;
+    font-weight: 400;
+}
+
+.story-page-text:hover {
+    text-decoration: none;
 }

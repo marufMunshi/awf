@@ -52,6 +52,16 @@
     .contact-us h2, .location h2{font-size: 140%;}
     .phone, .email, .location-text{font-size: 100%;}
     .copyright{font-size: 90%;}
+
+    /*Autism Single page*/
+
+    .main-title{font-size: 180%;}
+    .sub-title{font-size: 130%;}
+    .sub-text, .autism-ul{font-size: 100%;}
+
+    /*Gallery Page*/
+
+    .img-text{font-size: 80%;}
 }
 
 /* Portrait tablets and small desktops */
@@ -107,6 +117,16 @@
     .contact-us h2, .location h2{font-size: 130%;}
     .phone, .email, .location-text{font-size: 90%;}
     .copyright{font-size: 80%;}
+
+    /*Autism Single page*/
+
+    .main-title{font-size: 170%;}
+    .sub-title{font-size: 120%;}
+    .sub-text, .autism-ul{font-size: 90%;}
+
+    /*Gallery Page*/
+
+    .img-text{font-size: 70%;}
 }
 
 /* Landscape phones and portrait tablets */
@@ -171,6 +191,16 @@
     .contact-us h2, .location h2{font-size: 115%;}
     .phone, .email, .location-text{font-size: 80%;}
     .copyright{font-size: 70%;}
+
+    /*Autism Single page*/
+
+    .main-title{font-size: 160%;}
+    .sub-title{font-size: 110%;}
+    .sub-text, .autism-ul{font-size: 80%;}
+
+    /*Gallery Page*/
+
+    .img-text{font-size: 90%;}
 }
 
 /* Portrait phones and smaller */
@@ -215,5 +245,15 @@
         padding-top: 0;
         font-size: 80%;
     }
+
+    /*Autism Single page*/
+
+    .main-title{font-size: 150%;}
+    .sub-title{font-size: 100%;}
+    .sub-text, .autism-ul{font-size: 70%;}
+
+    /*Gallery Page*/
+
+    .img-text{font-size: 75%;}
 
 }
